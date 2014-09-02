@@ -1,0 +1,38 @@
+body {
+	
+	background-color: lightblue;
+	background-image: url("flower.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    color: white;
+}
+
+header{
+	width: 1000px;
+	font-family: 'Lobster', cursive;
+	background-image: url("flower.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-color: yellow;
+	
+	border-radius: 20px; 20px;
+	
+	text-align: center;
+
+}
+section{
+
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 15px;
+}
+p{
+	text-align: center;
+	
+}
+
+img{
+
+	border-radius: 20px; 20px;
+}
