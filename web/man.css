@@ -1,0 +1,37 @@
+body {
+	background-image: url("flower.jpg");
+	background-repeat: no-repeat;
+	position: absolute;
+    background-attachment: fixed;
+    background-position: center; 
+    }
+
+header{
+	width: 1000px;
+	font-family: 'Lobster', cursive;
+	background-color: black;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-color: yellow;
+	
+	border-radius: 20px; 20px;
+	
+	text-align: center;
+
+}
+section{
+
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 20px;
+	color: white;
+}
+p{
+	text-align: center;
+
+}
+
+img{
+
+	border-radius: 20px; 20px;
+}
