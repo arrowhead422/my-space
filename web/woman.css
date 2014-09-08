@@ -8,7 +8,12 @@ html, body {
 
 body {
   background-color: #e3e3e3;
+  background-image: url("flower.jpg");
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
 }
+
 
 nav {
   display: block;
