@@ -165,3 +165,12 @@ img{
   font-size: 1.5em;
   }
 
+#box{
+    background-color: lightblue;
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+    color: black;
+    border-radius: 20px;
+}
