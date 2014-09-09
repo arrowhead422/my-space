@@ -174,3 +174,38 @@ img{
     color: black;
     border-radius: 20px;
 }
+
+#contact{
+background-color: lightgreen;
+   display: block;
+  position: absolute;
+  font-size: 19px;
+
+  top: 0;
+  left: 10%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding: auto;
+  width: 400px;
+  height: 80px;
+  border-radius: 20px;
+  box-shadow: 20px;
+}
+head
+ { content:'\2630';
+
+}
+
+footer{
+   background-color: lightgreen;
+   display: block;
+  position: absolute;
+
+  
+
+ font-size: 10px;
+  border-radius: 20px;
+  box-shadow: 20px;
+
+}
