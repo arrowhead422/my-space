@@ -1,0 +1,18 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>my professional website</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="man.css">
+</head>
+<body>
+
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+<script type="text/javaScript" src="js/bootstrap.min.js"></script>
+<script type="text/javaScript" src="js/java.js"></script>
+</body>
+</html>

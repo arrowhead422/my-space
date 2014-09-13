@@ -1,0 +1,250 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"h",
+				"h6	Tag"
+			],
+			[
+				"boder-r",
+				"border-radius"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"backgorund-",
+				"background-image"
+			],
+			[
+				"b",
+				"background-color"
+			],
+			[
+				"ha",
+				"header	Tag"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"background-c",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Student/Desktop/professional/------",
+		"/C/Users/Student/Desktop/my space/professional/index.html",
+		"/C/Users/Student/Desktop/my space/web/woman.css",
+		"/C/Users/Student/Desktop/my space/web/contact.html",
+		"/C/Users/Student/Desktop/my space/web/project.html",
+		"/C/Users/Student/Desktop/my space/web/js/java.js",
+		"/C/Users/Student/Desktop/my space/web/man.css",
+		"/C/Users/Student/Desktop/my space/web/about-me.html",
+		"/C/Users/Student/Desktop/my space/web/web.html",
+		"/C/Users/Student/Desktop/my space/web/mans.css",
+		"/C/Users/Student/Desktop/my space/web/js/javas.js",
+		"/C/Users/Student/Desktop/my space/web/mans",
+		"/C/Users/Student/Desktop/my space/web/jame.sublime-build",
+		"/C/Users/Student/Desktop/my space/style/flower.jpg",
+		"/C/Users/Student/Desktop/my space/web/flower.jpg",
+		"/C/Users/Student/Desktop/my space/style/man.css",
+		"/C/Users/Student/Desktop/my space/images/web.html",
+		"/C/Users/Student/Desktop/my space/pub",
+		"/C/Users/Student/Desktop/my space/style/pong",
+		"/C/Users/Student/Desktop/my space/style/pong.jpg",
+		"/C/Users/Student/Desktop/my space/images/flower.jpg",
+		"/C/Users/Student/Desktop/my space/style/video.jpg",
+		"/C/Users/Student/Desktop/my space/video.jpg",
+		"/C/Users/Student/Desktop/my space/images/black.jpg",
+		"/C/Users/Student/Desktop/my space/images/pong.jpg",
+		"/C/Users/Student/Desktop/my space/web.html",
+		"/C/Users/Student/Desktop/my space/style/black.jpg"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ho"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
