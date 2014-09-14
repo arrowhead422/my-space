@@ -54,7 +54,7 @@ div{
 	 width: 300px;
     padding: 25px;
     height: 100px;
-    border: 25px 
+    border: 25px; 
     margin: 25px;
 
 }
@@ -63,4 +63,21 @@ div{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 50px;
 	color: white;
+}
+
+#div2{
+	width: 300px;
+	margin-left: 950px;
+    height: 100px;
+    border: 25px; 
+    
+    
+
+}
+
+body{
+	background-image: url("xiang3.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
 }
