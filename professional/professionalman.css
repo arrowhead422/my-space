@@ -23,12 +23,26 @@
             font-size: 35px;
         }
 
-        #home, #contact {
+        #home{
+          background-image: url("xiang3.jpg");
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+
+        }
+         #contact {
             background: #343c47;
             color: #ffffff;
         }
         #skills {
             background: #f5f8fb;    
+        }
+        #projects
+
+         #services{
+           background: #343c47;
+            color: #ffffff;
+
         }
 
         .dotnav-right {

@@ -4,6 +4,7 @@
         $('body').scrollspy({ 
             target: '#mainnav', 
             offset: 000
+            animationTime: 1000,  
         });  
         /* CSS Tricks smooth scrolling : http://css-tricks.com/snippets/jquery/smooth-scrolling/ */
         $('a[href*=#]:not([href=#])').click(function() {
