@@ -1,0 +1,88 @@
+.header {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  margin-top: 120px;
+  height: 2.66667em;
+  
+  background: rgba(0,0,0,0.6);
+}
+
+.toggle {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+
+  display: block;
+  position: absolute;
+  height: 2.66667em;
+  width: 2.66667em;
+  outline: none;
+  
+  @include transition(transform 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99));
+  
+}
+
+.gh-svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 18px;
+  fill: #fff;
+  @include transform(translateZ(0) rotate(0deg));
+  @include transition(transform 0.45s cubic-bezier(0.4, 0.01, 0.165, 0.99));
+ //@include transition(transform 0.2s 0.2s);
+  
+}
+
+.toggle .gh-svg-rect-top {
+  @include translate3d(0, -8px, 0);
+}
+
+.toggle .gh-svg-rect-bottom {
+  @include translate3d(0, 8px, 0);
+}
+
+.toggle.active .gh-svg {
+  //@include transition(transform 0.25s 0.2s cubic-bezier(0.4, 0.01, 0.165, 0.99));
+}
+
+.toggle.active .gh-svg-top {
+  @include transform(translateZ(0) rotate(135deg));
+}
+
+.toggle.active .gh-svg-bottom {
+  @include transform(translateZ(0) rotate(-135deg));
+}
+
+.toggle.active .gh-svg-rect {
+  //@include transition(transform 0.2s 0.2s);
+}
+
+.toggle.active .gh-svg-rect-top, .toggle.active .gh-svg-rect-bottom {
+  @include translate3d(0, 0, 0);
+}
+
+.apple-logo {
+  height: 2.66667em;
+  width: 2.66667em;
+  float: none;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -1.33333em;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjE5cHgiIGhlaWdodD0iMjNweCIgdmlld0JveD0iMCAwIDE5IDIzIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxOSAyMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQoJPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTE3Ljk3NywxNi4zNzJjLTAuMTExLDAuMzM0LTAuMjI5LDAuNjUyLTAuMzU0LDAuOTU5Yy0wLjMwNSwwLjcyMi0wLjY2NiwxLjM4OC0xLjA4MiwxLjk5OA0KCQljLTAuNTcsMC44MzQtMS4wMzUsMS40MDktMS4zOTYsMS43MjljLTAuNTU3LDAuNTI2LTEuMTUyLDAuNzk4LTEuNzkxLDAuODEyYy0wLjQ1OSwwLTEuMDEtMC4xMzQtMS42NTYtMC40MDQNCgkJYy0wLjY0Ni0wLjI3MS0xLjIzOC0wLjQwNi0xLjc4MS0wLjQwNmMtMC41NjksMC0xLjE4MSwwLjEzNi0xLjgzMywwLjQwNnMtMS4xOCwwLjQxNC0xLjU4MiwwLjQyNw0KCQljLTAuNjEyLDAuMDI4LTEuMjIzLTAuMjUtMS44MzMtMC44MzNjLTAuMzg5LTAuMzQ4LTAuODc1LTAuOTQ0LTEuNDU4LTEuNzkyYy0wLjYyNS0wLjkwMi0xLjEzOS0xLjk1LTEuNTQyLTMuMTQ2DQoJCWMtMC40MjktMS4yOTEtMC42NDUtMi41NDEtMC42NDUtMy43NDhjMC0xLjM4OSwwLjI5Mi0yLjU4MywwLjg3NS0zLjU4M2MwLjQ1OC0wLjgwNSwxLjA2OS0xLjQ0LDEuODMzLTEuOTA2DQoJCWMwLjc2NC0wLjQ2NiwxLjU5LTAuNzA0LDIuNDc5LTAuNzE4YzAuNDg2LDAsMS4xMjUsMC4xNTMsMS45MTYsMC40NThzMS4yOTcsMC40NTksMS41MiwwLjQ1OWMwLjE2NywwLDAuNzI5LTAuMTgxLDEuNjg4LTAuNTQyDQoJCWMwLjktMC4zMzQsMS42NjYtMC40NzIsMi4yOTEtMC40MTdjMS42OTMsMC4xNCwyLjk2NSwwLjgyNiwzLjgxMSwyLjA2MmMtMS41MTQsMC45NDQtMi4yNjIsMi4yNjMtMi4yNDgsMy45NTcNCgkJYzAuMDE0LDEuMzE4LDAuNDc5LDIuNDE3LDEuMzk2LDMuMjkxQzE2Ljk5OCwxNS44MzcsMTcuNDYzLDE2LjE1LDE3Ljk3NywxNi4zNzJ6IE0xMy42NDUsMS4xMDUNCgkJYzAuMDE0LDAuMTM5LDAuMDIxLDAuMjc4LDAuMDIxLDAuNDE3YzAsMS4wNDItMC4zNjksMi4wMTQtMS4xMDQsMi45MTVjLTAuODg5LDEuMDctMS45MTgsMS41NTYtMy4wODMsMS40NTkNCgkJQzkuNDY1LDUuNzcxLDkuNDU4LDUuNjM5LDkuNDU4LDUuNTAxYzAtMSwwLjM3Ni0xLjkzOCwxLjEyNi0yLjgxMmMwLjM3NS0wLjQ0MywwLjg1LTAuODEyLDEuNDI4LTEuMTA0DQoJCUMxMi41ODYsMS4yOTMsMTMuMTMxLDEuMTMzLDEzLjY0NSwxLjEwNXoiLz4NCjwvc3ZnPg0K");
+  background-size: 2.66667em 2.66667em;
+  
+  @include scale(0.6);
+}
+
+
+
+
+
+@media screen and (max-width:480px) {
+       #sidebar { display: none;}
+        }
+  

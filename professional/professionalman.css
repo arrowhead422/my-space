@@ -1,84 +1,102 @@
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+* {
+            margin: 0;
+            padding: 0;
+        }
+        body, html {
+            height: 100%;           
+        }
+        body {
+            background: #fff;   
+            position: relative;             
+        }
 
-html {
-  height:100%;
-  background-image: linear-gradient(to right top, #8e44ad 0%, #3498db 100%);
-}
+        section {
+            padding-top: 5%;
+            min-height: 100%;
+            font-weight: 300;
+            color: #2a3039;
+            z-index: 1;
+            position: relative;
+        }
+        section h1 {
+            font-size: 35px;
+        }
 
-nav {
-  max-width: 960px;
-  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
-  margin: 0 auto;
-  padding: 60px 0;
-  
-}
+        #home, #contact {
+            background: #343c47;
+            color: #ffffff;
+        }
+        #skills {
+            background: #f5f8fb;    
+        }
 
-nav ul {
-  text-align: center;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-}
+        .dotnav-right {
+            right: 10px;
+            top: 50%;
+            margin-top: -50px;
+            height: 100px;
+            z-index: 999;
+            position: fixed;
+        }
 
-nav ul li {
-  display: inline-block;
-}
+        .dotnav {
+            padding: 0;
+            list-style: none;
+            font-size: 0.001px;
+        }
 
-nav ul li a {
-  padding: 18px;
-  font-family: "Open Sans";
-  text-transform:uppercase;
-  color: rgba(0, 35, 122, 0.5);
-  font-size: 18px;
-  text-decoration: none;
-  display: block;
-}
+        .dotnav > li {
+            display: inline-block;
+            font-size: 1rem;
+            vertical-align: top;
+        }
+        .dotnav > li:nth-child(n+2) {
+            margin-left: 15px;
+        }
 
-nav ul li a:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-  background: rgba(255, 255, 255, 0.1);
-  color: rgba(0, 35, 122, 0.7);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-div{
-	 width: 300px;
-    padding: 25px;
-    height: 100px;
-    border: 25px; 
-    margin: 25px;
-
-}
-
-#home{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 50px;
-	color: white;
-}
-
-#div2{
-	width: 300px;
-	margin-left: 950px;
-    height: 100px;
-    border: 25px; 
-    
-    
-
-}
-
-body{
-	background-image: url("xiang3.jpg");
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-}
+        .dotnav > li > a {
+            display: inline-block;
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            border: 2px solid #66ccff;
+            vertical-align: top;
+            overflow: hidden;
+            padding: 0;
+            text-indent: -999%;
+        }
+        .dotnav > li > a:hover,
+        .dotnav > li > a:focus {
+            background: #66ccff;
+            outline: none;
+        }
+        .dotnav > li > a:active {
+            background: #66ccff;
+        }
+        .dotnav > li.active > a {
+            background: #66ccff;
+        }
+        .dotnav-vertical > li {
+            display: block;
+            margin-right:10px;
+        }
+        .dotnav-vertical > li:nth-child(n+2) {
+            margin-left: 0;
+            margin-top: 10px;
+        }
+        .awesome-tooltip + .tooltip > .tooltip-inner {
+            background-color: #66ccff; 
+            color: #fff; 
+            border: 1px solid #66ccff; 
+        }
+        .awesome-tooltip + .tooltip.left > .tooltip-arrow{
+            top:50%;
+            right:0;
+            margin-top:-5px;
+            border-top:5px solid transparent;
+            border-bottom:5px solid transparent;
+            border-left:5px solid #66ccff;
+        }
