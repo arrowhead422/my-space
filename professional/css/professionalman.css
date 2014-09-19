@@ -163,7 +163,14 @@ nav ul li a:hover {
 
 
 
+@media screen  and  (max-width: 320){
 
+    body,html{
+        width: 320px;
+    }
+
+
+}
 
 
        
