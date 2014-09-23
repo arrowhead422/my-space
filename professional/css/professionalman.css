@@ -23,28 +23,17 @@
             font-size: 35px;
         }
 
-        #home{
-
-             
-
-            } #contact {
-            background-image: url('gray2.jpg');
+        #home, #contact {
+            background: #343c47;
             color: #ffffff;
         }
-        #skills {
-            background: #f5f8fb; 
-            margin-bottom: 50px;   
-        }
-        #project{
-
-            margin-bottom: 50px; 
-            background: #f5f8fb; 
+        #about{
+             background: #343c47;
+            color: #ffffff;
             
         }
-        #about{
-
-            margin-bottom: 150px; 
-
+        #skills {
+            background: #f5f8fb;    
         }
 
         .dotnav-right {
