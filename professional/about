@@ -1,23 +1,17 @@
 
 <html>
-<head>
-	<title></title>
-
+<head id="container">
+	<title>About me</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
-	<link rel="stylesheet" type="text/css" href="css/professionalwoman.css">
+	<link rel="stylesheet" type="text/css" href="css/conten.css">
+	<meta name="viewprot" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
 
-<div class="container">
-  <div id="cloud-intro"></div>
-</div>
-<img src="http://btstrategy.com/wp-new/wp-content/uploads/2013/10/cloud2_55171579.jpg">
-
-
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  
+	
 <script type="text/javaScript" src="js/bootstrap.min.js"></script>
 <script type="text/javaScript" src="js/java"></script>
 </body>

@@ -4,7 +4,7 @@
             padding: 0;
         }
         body, html {
-            height: 100%;           
+            height: 150%;           
         }
         body {
             background: #fff;   
@@ -27,13 +27,14 @@
             background: #343c47;
             color: #ffffff;
         }
-        #about{
-             background: #343c47;
-            color: #ffffff;
-            
-        }
         #skills {
             background: #f5f8fb;    
+        }
+        #about{
+            background-image: url('xiang3.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center; 
         }
 
         .dotnav-right {
@@ -66,7 +67,7 @@
             box-sizing: content-box;
             width: 15px;
             height: 15px;
-            border-radius: 50%;
+            border-radius:50px; 
             border: 2px solid #66ccff;
             vertical-align: top;
             overflow: hidden;
@@ -77,6 +78,10 @@
         .dotnav > li > a:focus {
             background: #66ccff;
             outline: none;
+            background-image: url('pic/xiang3.jpg');
+            background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
         }
         .dotnav > li > a:active {
             background: #66ccff;
@@ -114,9 +119,6 @@
 
 
 
-
-
-
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
@@ -135,10 +137,12 @@ nav ul {
   text-align: center;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  margin-bottom: 500px;
 }
 
 nav ul li {
   display: inline-block;
+  margin-bottom: 10px;
 }
 
 nav ul li a {
