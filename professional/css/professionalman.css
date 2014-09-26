@@ -3,6 +3,14 @@
             margin: 0;
             padding: 0;
         }
+        #hell{
+            background-image: url('pic/orange.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center; 
+             background: #fff;   
+            position: relative; 
+        }
         body, html {
             height: 150%;           
         }
@@ -166,14 +174,21 @@ nav ul li a:hover {
 
 
 
-@media screen  and  (max-width: 920){
 
-    body,html{
-        width: 320px;
+
+
+
+
+
+
+
+@media screen  and  (max-width: 959){
+    #home{
+        width: 100%;
     }
-
-
 }
+
+   
 
 
        
