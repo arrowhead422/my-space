@@ -12,7 +12,7 @@
             position: relative; 
         }
         body, html {
-            height: 150%;           
+            height: 130%;           
         }
         body {
             background: #fff;   
@@ -25,6 +25,7 @@
             font-weight: 300;
             color: #2a3039;
             z-index: 1;
+            
             position: relative;
         }
         section h1 {
@@ -34,6 +35,7 @@
         #home, #contact {
             background: #343c47;
             color: #ffffff;
+            display: 20px;
         }
         #skills {
             background: #f5f8fb;    
@@ -80,16 +82,15 @@
             vertical-align: top;
             overflow: hidden;
             padding: 0;
+
             text-indent: -999%;
         }
         .dotnav > li > a:hover,
         .dotnav > li > a:focus {
             background: #66ccff;
             outline: none;
-            background-image: url('pic/xiang3.jpg');
-            background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
+           
+   
         }
         .dotnav > li > a:active {
             background: #66ccff;
@@ -171,8 +172,19 @@ nav ul li a:hover {
 
 
 
+#img{
+    border-radius: 50px;
+    box-shadow: 200px;
+    margin-bottom: 20px;
+    border: lightblue;
 
+}
+#img2{
+     border-radius: 50px;
+    box-shadow: 200px;
+    margin-bottom: 20px;
 
+}
 
 
 
